@@ -1,5 +1,6 @@
-#!/bin/bash                                                                                                                     # Matthew Fricke <mfricke@carc.unm.edu>, July 17th, 2020 
-# Takes two arguments:                                                                                                           
+#!/bin/bash
+# Matthew Fricke <mfricke@carc.unm.edu>, July 17th, 2020 
+# Takes two arguments:
 if [ "$#" -ne 3 ]
 then
   echo "Usage: <output path> <number_of_files> <file_size (K,M,G, etc)>"  >&2
